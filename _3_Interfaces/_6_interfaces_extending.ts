@@ -11,6 +11,15 @@ interface IStudent extends IPerson {
     lessonCount: number;
 }
 
+let std = <IStudent>{};
+std.address ="asd asdasdasd asd";
+std.age = 35;
+std.isMarried=true;
+std.lessonCount = 4;
+std.name = "dfsfsdf"
+
+
+
 class MathClass {
     getStudents(...students: IStudent[]) {
 
